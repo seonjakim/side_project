@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# 내가 무슨 플젝해야할지 모르겠어서 만든 '무슨 플젝할까?!' 플젝!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Notion
 
-## Available Scripts
+#### 프로젝트를 하면서 알아간 부수적인 내용들
 
-In the project directory, you can run:
+- 주소 : https://www.notion.so/f4d11dcefbad46029edf8f4405b20f3a
 
-### `npm start`
+1. 좋은 커밋 메시지 남기는 법
+1. github 무료 배포하기
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## README
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### 프로젝트에 대한 설명
 
-### `npm test`
+### 아이디어의 출발 (2021.02.12)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 참고자료 : https://brunch.co.kr/@theciriz/13
+  '당신의 업무용 부캐가 무엇인가요?'라는 퍼블리의 mbti 테스트를 활용한 업무용 부캐 진단 페이지가 어떻게 탄생하게 되었는지에 관한 브런치글을 읽고, 프로젝트는 하고 싶은데 (실은, 해야 하는데) 팀을 꾸려야 하나? 혼자서는 무슨 프로젝트를 할 수 있을까?라는 고민이 많은 코린이들의 고민에 공감할 수 있는 재미위주 심리테스트를 표방한 '프로젝트 주제 추천해주기' 페이지를 구상
 
-### `npm run build`
+알고보니, 개발자 없이 typeform(https://www.typeform.com/)이라는 툴을 이용하여 구축하였지만, typeform을 클로닝하면서 그 내용은 기획하기로 결정
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 기획
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+가장 기본적인 기능 위주로 바로 배포를 진행하면서 자료 조사와 내용을 첨가하기로 결정
