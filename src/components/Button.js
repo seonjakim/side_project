@@ -2,10 +2,8 @@ import styled from "styled-components";
 import React from "react";
 
 const Button = () => {
-	return (
-    <BlueBtn>hello I am a blue btn</BlueBtn>
-	);
-}
+  return <BlueBtn>hello I am a blue btn</BlueBtn>;
+};
 
 export default Button;
 

@@ -3,24 +3,38 @@ import React, { useState } from "react";
 import ListCom from "./ListCom";
 
 const QuestionFrame = () => {
-	const [firstOption, setFirstOption] = useState(false);
-	const [secondOption, setSecondOption] = useState(false);
+  const [firstOption, setFirstOption] = useState(false);
+  const [secondOption, setSecondOption] = useState(false);
 
-	return (
-		<div>
-			<AlignDiv>
-				<QuestionNum>b.</QuestionNum>
-				<div>
-					<TitleDiv>둘 중 어느 쪽에 더 가까우신가요?</TitleDiv>
-					<ul>
-						<ListCom selected={firstOption} unselect={secondOption} setSelected={setFirstOption} setOtherFalse={setSecondOption} number={"B"} quotes={"직장에서는 되도록 말을 줄인다."} />
-						<ListCom selected={secondOption} unselect={firstOption} setSelected={setSecondOption} setOtherFalse={setFirstOption} number={"A"} quotes={"동료와 되도록 많이 대화하려 하며 잡담을 즐기기도 한다."} />
-					</ul>
-				</div>
-			</AlignDiv>
-		</div>
-	);
-}
+  return (
+    <div>
+      <AlignDiv>
+        <QuestionNum>b.</QuestionNum>
+        <div>
+          <TitleDiv>둘 중 어느 쪽에 더 가까우신가요?</TitleDiv>
+          <ul>
+            <ListCom
+              selected={firstOption}
+              unselect={secondOption}
+              setSelected={setFirstOption}
+              setOtherFalse={setSecondOption}
+              number={"A"}
+              quotes={"직장에서는 되도록 말을 줄인다."}
+            />
+            <ListCom
+              selected={secondOption}
+              unselect={firstOption}
+              setSelected={setSecondOption}
+              setOtherFalse={setFirstOption}
+              number={"B"}
+              quotes={"동료와 되도록 많이 대화하려 하며 잡담을 즐기기도 한다."}
+            />
+          </ul>
+        </div>
+      </AlignDiv>
+    </div>
+  );
+};
 
 export default QuestionFrame;
 
@@ -36,6 +50,6 @@ const QuestionNum = styled.span`
 `;
 
 const TitleDiv = styled.div`
-	font-size: 24px;
-	margin-bottom: 32px;
+  font-size: 24px;
+  margin-bottom: 32px;
 `;

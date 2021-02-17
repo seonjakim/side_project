@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 function getWidthString(span) {
-  if (!span) return ;
+  if (!span) return;
 
-  let width = span / 12 * 100;
+  let width = (span / 12) * 100;
   return `width: ${width}%`;
 }
 
