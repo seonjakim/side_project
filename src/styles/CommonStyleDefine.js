@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 export const globalStyleDef = {
   color: {
     mainBlue: "rgb(4, 69, 175)",
@@ -11,3 +13,7 @@ export const globalStyleDef = {
     hoverBlue: "rgba(4, 69, 175, 0.3)",
   },
 };
+
+export const Strong = styled.span`
+  font-weight: bold;
+`;

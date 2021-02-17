@@ -1,12 +1,14 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 import React from "react";
 
-const ProgressIndicator = () => {
+const ProgressIndicator = (props) => {
+  const { progress } = props;
+
   return (
     <ProgressWrapper>
-      <ProgressTitle>50% completed</ProgressTitle>
+      <ProgressTitle>{progress}% completed</ProgressTitle>
       <IndicatorWindow>
-        <ProgressBar />
+        <ProgressBar progress={progress} />
       </IndicatorWindow>
     </ProgressWrapper>
   );
@@ -34,7 +36,12 @@ const IndicatorWindow = styled.div`
 
 const ProgressBar = styled.div`
   height: 100%;
-  width: 50%;
+  ${props => props.progress ? css`
+    width: ${props.progress}%;`
+    : css`
+    width: 0%;
+  `}
+  width: ${ props => props.progress };
   background-color: red;
   border-radius: 2px 0 0 2px;
 `;

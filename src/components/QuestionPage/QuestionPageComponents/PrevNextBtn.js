@@ -1,12 +1,14 @@
 import styled from "styled-components";
 import React from "react";
-import { globalStyleDef } from "../styles/CommonStyleDefine";
+import { globalStyleDef, Strong } from "../../../styles/CommonStyleDefine";
 
 const PrevNextBtn = () => {
   return (
     <div>
       <WrapperBtns>
-        <CreatorBtn>Powered by Seokim</CreatorBtn>
+        <CreatorBtn>
+          Powered by&nbsp;<Strong>Seokim</Strong>
+        </CreatorBtn>
         <BtnDivider />
         <CommonBtn>
           <svg fill="white" height="9" width="14">
@@ -38,6 +40,7 @@ const CreatorBtn = styled.div`
   min-height: 32px;
   display: flex;
   align-items: center;
+  font-size: 14px;
 `;
 
 const CommonBtn = styled.button`

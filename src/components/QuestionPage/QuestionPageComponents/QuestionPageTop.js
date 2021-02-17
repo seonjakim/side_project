@@ -3,9 +3,9 @@ import React from "react";
 
 const QuestionPageTop = () => {
   return (
-      <FrameDiv>
-        <InnerDiv>자, 20문제 시작합니다!</InnerDiv>
-      </FrameDiv>
+    <FrameDiv>
+      <InnerDiv>자, 20문제 시작합니다!</InnerDiv>
+    </FrameDiv>
   );
 };
 
@@ -18,9 +18,9 @@ const FrameDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  `;
-  
-  const InnerDiv = styled.div`
+`;
+
+const InnerDiv = styled.div`
   min-width: 720px;
   margin: 0 auto;
   padding: 0 70px 0 70px;

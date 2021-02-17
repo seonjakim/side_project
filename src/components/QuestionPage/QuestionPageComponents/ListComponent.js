@@ -1,8 +1,8 @@
 import styled, { css } from "styled-components";
 import React, { useState } from "react";
-import { globalStyleDef } from "../styles/CommonStyleDefine";
+import { globalStyleDef, Strong } from "../../../styles/CommonStyleDefine";
 
-const ListCom = (props) => {
+const ListComponent = (props) => {
   const { selected, unselect, setSelected, setOtherFalse } = props;
   const [hoverEffect, setHoverEffect] = useState(false);
 
@@ -22,12 +22,8 @@ const ListCom = (props) => {
     >
       <div style={{ width: "36px" }}>
         <InnerBox selected={selected} hoverEffect={hoverEffect}>
-          {hoverEffect || selected ? (
-            <span style={{ marginRight: "6px" }}>Key</span>
-          ) : (
-            ""
-          )}
-          <span>{props.number}</span>
+          {hoverEffect ? <span>Key&nbsp;&nbsp;</span> : ""}
+          <Strong>{props.number}</Strong>
         </InnerBox>
       </div>
       <div>{props.quotes}</div>
@@ -46,10 +42,9 @@ const ListCom = (props) => {
   );
 };
 
-export default ListCom;
+export default ListComponent;
 
 const List = styled.li`
-  border: 1px solid ${globalStyleDef.color.mainBlue};
   border-radius: 4px;
   min-height: 40px;
   min-width: 75px;
@@ -60,15 +55,27 @@ const List = styled.li`
   align-items: center;
   font-size: 16px;
   color: ${globalStyleDef.color.mainBlue};
+  background-color: ${globalStyleDef.color.boxBlue};
+  cursor: pointer;
+  border: 1px solid ${globalStyleDef.color.mainBlue};
   ${(props) =>
-    props.selected
-      ? css`
-          box-shadow: rgb(4 69 175 / 80%) 0px 0px 0px 2px inset;
-          background-color: ${globalStyleDef.hoverColor.hoverBlue};
-        `
-      : css`
-          background-color: ${globalStyleDef.color.boxBlue};
-        `}
+    props.selected &&
+    css`
+      box-shadow: rgb(4 69 175 / 80%) 0px 0px 0px 1px inset;
+      border: 1px solid ${globalStyleDef.color.mainBlue};
+      animation: blinker 0.25s 2 normal ease;
+      @keyframes blinker {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.3;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    `}
   ${(props) =>
     props.hoverEffect &&
     css`
@@ -81,7 +88,7 @@ const InnerBox = styled.div`
   height: 24px;
   border-radius: 2px;
   font-size: 12px;
-  border: 1px solid rgba(4, 69, 175, 0.6);
+  border: 1px solid rgba(4, 69, 175, 0.7);
   margin: 0 8px 0 4px;
   display: flex;
   justify-content: center;
@@ -91,7 +98,7 @@ const InnerBox = styled.div`
     css`
       width: 51.68px;
       position: absolute;
-      left: -24.68px;
+      left: -24px;
       top: 50%;
       transform: translateY(-50%);
     `}
@@ -100,11 +107,6 @@ const InnerBox = styled.div`
       ? css`
           background-color: ${globalStyleDef.color.mainBlue};
           color: white;
-          width: 51.68px;
-          position: absolute;
-          left: -24.68px;
-          top: 50%;
-          transform: translateY(-50%);
         `
       : css`
           background-color: white;
