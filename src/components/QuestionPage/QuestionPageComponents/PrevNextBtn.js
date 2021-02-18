@@ -1,26 +1,35 @@
 import styled from "styled-components";
 import React from "react";
+import { Link } from "react-router-dom";
 import { globalStyleDef, Strong } from "../../../styles/CommonStyleDefine";
 
-const PrevNextBtn = () => {
+const PrevNextBtn = (props) => {
+  const { prevLink, nextLink } = props;
+
   return (
     <div>
       <WrapperBtns>
-        <CreatorBtn>
-          Powered by&nbsp;<Strong>Seokim</Strong>
-        </CreatorBtn>
+        <a href="https://github.com/seonjakim" target="_blank" rel="noopener noreferrer">
+          <CreatorBtn>
+            Powered by&nbsp;<Strong>Seokim</Strong>
+          </CreatorBtn>
+        </a>
         <BtnDivider />
-        <CommonBtn>
-          <svg fill="white" height="9" width="14">
-            <path d="M11.996 8.121l1.414-1.414L6.705 0 0 6.707l1.414 1.414 5.291-5.293z"></path>
-          </svg>
-        </CommonBtn>
+        <Link to={prevLink}>
+          <CommonBtn>
+            <svg fill="white" height="9" width="14">
+              <path d="M11.996 8.121l1.414-1.414L6.705 0 0 6.707l1.414 1.414 5.291-5.293z"></path>
+            </svg>
+          </CommonBtn>
+        </Link>
         <BtnDivider />
-        <NextBtn>
-          <svg fill="white" height="9" width="14">
-            <path d="M12.293.293l1.414 1.414L7 8.414.293 1.707 1.707.293 7 5.586z"></path>
-          </svg>
-        </NextBtn>
+        <Link to={nextLink}>
+          <NextBtn>
+            <svg fill="white" height="9" width="14">
+              <path d="M12.293.293l1.414 1.414L7 8.414.293 1.707 1.707.293 7 5.586z"></path>
+            </svg>
+          </NextBtn>
+        </Link>
       </WrapperBtns>
     </div>
   );

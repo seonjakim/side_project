@@ -4,7 +4,7 @@ import React from "react";
 const QuestionPageTop = () => {
   return (
     <FrameDiv>
-      <InnerDiv>자, 20문제 시작합니다!</InnerDiv>
+      <InnerDiv>자, 3문제 시작합니다!</InnerDiv>
     </FrameDiv>
   );
 };

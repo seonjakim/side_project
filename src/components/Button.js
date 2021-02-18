@@ -1,19 +1,23 @@
 import styled from "styled-components";
 import React from "react";
+import { globalStyleDef } from "../styles/CommonStyleDefine"
 
-const Button = () => {
-  return <BlueBtn>hello I am a blue btn</BlueBtn>;
+const Button = (props) => {
+  const { content } = props;
+
+  return <BlueBtn>{content}</BlueBtn>;
 };
 
 export default Button;
 
-//font는 import해서 사용하는 곳에서 설정해서 쓸 수 있게 설정
-
 const BlueBtn = styled.button`
   min-height: 48px;
   padding: 8px 18px;
-  background: blue;
+  background: ${globalStyleDef.color.mainBlue};
   border: 1px solid transparent;
   border-radius: 4px;
   color: white;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
 `;

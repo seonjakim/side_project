@@ -1,114 +1,133 @@
-<mxfile host="65bd71144e" modified="2021-02-16T04:17:21.807Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" version="14.2.4" etag="VUsUZ_qgJ0EfxgXe7UAq" type="embed">
+<mxfile host="65bd71144e" modified="2021-02-17T21:58:20.018Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="qwFqK1iymN98JPVpAlcV" version="14.2.4" type="embed">
     <diagram id="2l-lKPs4-SLX0_9qPT9Y" name="Page-1">
-        <mxGraphModel dx="1102" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="937" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Vertical Tree Layout" style="swimlane;html=1;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;resizable=0;containerType=tree;" vertex="1" parent="1">
-                    <mxGeometry x="30" y="40" width="900" height="502" as="geometry"/>
+                <mxCell id="2" value="Vertical Tree Layout" style="swimlane;html=1;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;resizable=0;containerType=tree;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="40" width="1039" height="502" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="둘 중 어느 쪽에 더 가까우신가요?" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-                    <mxGeometry x="440.37499999999994" y="40" width="100" height="40" as="geometry"/>
+                <mxCell id="3" value="둘 중 어느 쪽에 더 가까우신가요?" style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry x="528.25" y="40" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="a. 나는 오리지널 아싸이다." style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-                    <mxGeometry x="210.45" y="130" width="100" height="40" as="geometry"/>
+                <mxCell id="4" value="a. 나는 오리지널 아싸이다." style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry x="247.66000000000003" y="130" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" parent="2" source="3" target="4">
+                <mxCell id="5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="3" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="b. 나는 인싸라 프로젝트 함께 할 개발자 칭구들이 있다." style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-                    <mxGeometry x="670.3" y="131.00000000000003" width="100" height="40" as="geometry"/>
+                <mxCell id="6" value="b. 나는 인싸라 프로젝트 함께 할 개발자 칭구들이 있다." style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry x="808.8400000000001" y="131" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" parent="2" source="3" target="6">
+                <mxCell id="7" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="3" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="11" source="4" parent="2">
+                <mxCell id="10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="4" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-359.46500000000003" y="110" as="sourcePoint"/>
+                        <mxPoint x="-1375.965" y="110" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="a. 난 쪼렙은 그래도 벗어난 듯? (사용할 줄 아는 프레임 워크 &amp;gt; 0)" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                <mxCell id="11" value="a. 난 쪼렙은 그래도 벗어난 듯? (사용할 줄 아는 프레임 워크 &amp;gt; 0)" style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
                     <mxGeometry x="90" y="220" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="13" source="4" parent="2">
+                <mxCell id="12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="4" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-359.46500000000003" y="110" as="sourcePoint"/>
+                        <mxPoint x="-1375.965" y="110" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="13" value="b. 난 아직 쪼렙이다. (사용할 줄 아는 프레임 워크 == 0)" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-                    <mxGeometry x="330.3" y="221.00000000000003" width="100.6" height="49" as="geometry"/>
+                <mxCell id="13" value="b. 난 아직 쪼렙이다. (사용할 줄 아는 프레임 워크 == 0)" style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry x="404.72" y="220" width="100.6" height="49" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="15" source="6" parent="2">
+                <mxCell id="14" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="6" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-190.06499999999988" y="110" as="sourcePoint"/>
+                        <mxPoint x="-1206.5649999999998" y="110" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="a. 사용할 줄 아는 프레임 워크가 있다." style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-                    <mxGeometry x="560.6" y="222.00000000000006" width="100" height="40" as="geometry"/>
+                <mxCell id="15" value="a. 사용할 줄 아는 프레임 워크가 있다." style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry x="699.1400000000001" y="222" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="18" source="6" parent="2">
+                <mxCell id="17" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="6" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-190.065" y="110" as="sourcePoint"/>
+                        <mxPoint x="-1206.565" y="110" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="b. 사용할 줄 아는 프레임 워크는 아직 없다." style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-                    <mxGeometry x="780" y="223.00000000000009" width="100" height="40" as="geometry"/>
+                <mxCell id="18" value="b. 사용할 줄 아는 프레임 워크는 아직 없다." style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry x="918.5400000000002" y="223" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="20" source="13" parent="2">
+                <mxCell id="19" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-280.065" y="200" as="sourcePoint"/>
+                        <mxPoint x="433.54999999999984" y="435.1275733000624" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="생활코딩 html, css 강의보고 내가 좋아하는 사이트 로그인 &amp;amp; 회원가입 페이지 클론코딩하기" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-                    <mxGeometry x="320" y="321.00000000000006" width="121.2" height="63" as="geometry"/>
+                <mxCell id="20" value="생활코딩 html, css 강의보고 내가 좋아하는 사이트 로그인 &amp;amp; 회원가입 페이지 클론코딩하기" style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry x="320" y="418" width="121.2" height="63" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="22" source="11" parent="2">
+                <mxCell id="21" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="11" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-286.319" y="200" as="sourcePoint"/>
+                        <mxPoint x="-1302.819" y="200" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="a. 난 흰 쌀밥을 보면 그 속에 숨은 바람과 농부의 노력을 엿볼 수 있다. (창의적 O)" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                <mxCell id="22" value="a. 난 흰 쌀밥을 보면 그 속에 숨은 바람과 농부의 노력을 엿볼 수 있다. (창의적 O)" style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
                     <mxGeometry x="20" y="330" width="110" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="24" source="11" parent="2">
+                <mxCell id="23" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="11" target="24" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-286.9550000000001" y="200" as="sourcePoint"/>
+                        <mxPoint x="-1303.455" y="200" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="b. 난 흰 쌀밥을 보면 그냥 먹는다. 고로 난 존재한다. (창의적 X)" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                <mxCell id="24" value="b. 난 흰 쌀밥을 보면 그냥 먹는다. 고로 난 존재한다. (창의적 X)" style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
                     <mxGeometry x="170" y="330" width="110" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="26" source="18" parent="2">
+                <mxCell id="25" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="18" target="26" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="271.5149999999998" y="211" as="sourcePoint"/>
+                        <mxPoint x="-744.9850000000001" y="211" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="26" value="인싸면 뭐해 공부 안하면 다 소용없는 걸..." style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-                    <mxGeometry x="780" y="315.0000000000001" width="100" height="40" as="geometry"/>
+                <mxCell id="26" value="인싸면 뭐해 공부 안하면 다 소용없는 걸..." style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry x="918.5400000000002" y="315" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="28" source="15" parent="2">
+                <mxCell id="27" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="15" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="271.5149999999998" y="211" as="sourcePoint"/>
+                        <mxPoint x="-744.9850000000001" y="211" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" value="a. 난 흰 쌀밥을 보면 그 속에 숨은 바람과 농부의 노력을 엿볼 수 있다. (창의적 O)" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-                    <mxGeometry x="481.20000000000005" y="312.00000000000006" width="108.8" height="68" as="geometry"/>
+                <mxCell id="28" value="a. 난 흰 쌀밥을 보면 그 속에 숨은 바람과 농부의 노력을 엿볼 수 있다. (창의적 O)" style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry x="619.7400000000002" y="312" width="108.8" height="68" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="30" source="15" parent="2">
+                <mxCell id="29" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="15" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="272.575" y="211" as="sourcePoint"/>
+                        <mxPoint x="-743.925" y="211" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" value="b. 난 흰 쌀밥을 보면 그냥 먹는다. 고로 난 존재한다. (창의적 X)" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-                    <mxGeometry x="630.0000000000001" y="312.00000000000006" width="110" height="60" as="geometry"/>
+                <mxCell id="30" value="b. 난 흰 쌀밥을 보면 그냥 먹는다. 고로 난 존재한다. (창의적 X)" style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry x="768.5400000000002" y="312" width="110" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="33" source="30" parent="2">
+                <mxCell id="32" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" parent="2" source="30" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="638.1749999999998" y="302" as="sourcePoint"/>
+                        <mxPoint x="-378.3250000000002" y="302" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="33" value="내가 가고 싶은, 좋아하는 회사 사이트 클로닝 프로젝트!" style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
-                    <mxGeometry x="630.0000000000001" y="422.00000000000006" width="110" height="60" as="geometry"/>
+                <mxCell id="33" value="내가 가고 싶은, 좋아하는 회사 사이트 클로닝 프로젝트!" style="whiteSpace=wrap;html=1;" parent="2" vertex="1">
+                    <mxGeometry x="768.5400000000002" y="422" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="35" source="13" parent="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-726.05" y="210" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2" source="35" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="a. 난 공부할 의지가 있다." style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="330.3" y="319" width="100.6" height="49" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;" edge="1" target="37" source="13" parent="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-270.5250000000002" y="210" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="b. 난 공부라면 치가 떨린다." style="whiteSpace=wrap;html=1;" vertex="1" parent="2">
+                    <mxGeometry x="479.14000000000004" y="319" width="100.6" height="49" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

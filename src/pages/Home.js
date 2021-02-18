@@ -10,7 +10,7 @@ const Home = () => {
         aAddress={"/next"}
         aQuestion={"나는 오리지널 아싸다."}
         bQuestion={"나는 인싸라 프로젝트 함께 할 개발자 칭구들이 있다."}
-        progress={"30"}
+        progress={"33.33"}
       />
     </div>
   );

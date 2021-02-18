@@ -9,7 +9,7 @@ const TestNext = () => {
       <QuestionPage
         aQuestion={"나는 쪼렙이다. ( 사용가능한 프레임워크 == 0 )"}
         bQuestion={"쪼렙은 그래도 벗어난 듯?! ( 사용가능한 프레임워크 > 0 )"}
-        progress={"60"}
+        progress={"66.66"}
       />
     </div>
   );

@@ -20,6 +20,7 @@ const QuestionPage = (props) => {
       <BottomWrapper>
         <AlignDiv>
           <ProgressIndicator progress={progress} />
+          {/* prevLink, nextLink setting */}
           <PrevNextBtn />
         </AlignDiv>
       </BottomWrapper>
