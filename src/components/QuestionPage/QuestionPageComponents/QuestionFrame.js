@@ -7,7 +7,7 @@ import { globalStyleDef } from "../../../styles/CommonStyleDefine"
 const QuestionFrame = (props) => {
   const [firstOption, setFirstOption] = useState(false);
   const [secondOption, setSecondOption] = useState(false);
-  const { aQuestion, bQuestion, aAddress, bAddress } = props;
+  const { number, aQuestion, bQuestion, aAddress, bAddress } = props;
   const history = useHistory();
 
   const timeOut = (address) => {
@@ -19,7 +19,7 @@ const QuestionFrame = (props) => {
   return (
     <div>
       <AlignDiv firstOption={firstOption} secondOption={secondOption}>
-        <QuestionNum>b.</QuestionNum>
+        <QuestionNum>{number}</QuestionNum>
         <div>
           <TitleDiv>둘 중 어느 쪽에 더 가까우신가요?</TitleDiv>
           <ul>

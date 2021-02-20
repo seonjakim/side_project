@@ -30,7 +30,7 @@ const IndicatorWindow = styled.div`
   height: 4px;
   max-width: 100%;
   background-color: rgba(230, 230, 230, 0.9);
-  border-radius: 2px;
+  border-radius: 4px;
   margin: 4px 0;
 `;
 
@@ -42,6 +42,6 @@ const ProgressBar = styled.div`
     width: 0%;
   `}
   width: ${ props => props.progress };
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 2px 0 0 2px;
 `;

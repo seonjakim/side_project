@@ -5,12 +5,13 @@ import ProgressIndicator from "./QuestionPageComponents/ProgressIndicator";
 import PrevNextBtn from "./QuestionPageComponents/PrevNextBtn";
 
 const QuestionPage = (props) => {
-  const { aAddress, bAddress, aQuestion, bQuestion, progress } = props;
+  const { number, aAddress, bAddress, aQuestion, bQuestion, progress } = props;
 
   return (
     <div>
       <MiddleWrapper>
         <QuestionFrame
+          number={number}
           aAddress={aAddress}
           bAddress={bAddress}
           aQuestion={aQuestion}
