@@ -1,6 +1,6 @@
 import React from "react";
-import QuestionPageTop from "../components/QuestionPage/QuestionPageComponents/QuestionPageTop";
-import QuestionPage from "../components/QuestionPage/QuestionPage";
+import QuestionPageTop from "../../components/QuestionPage/QuestionPageComponents/QuestionPageTop";
+import QuestionPage from "../../components/QuestionPage/QuestionPage";
 
 const InsiderCreativity = () => {
   return (

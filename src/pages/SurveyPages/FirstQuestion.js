@@ -1,8 +1,8 @@
 import React from "react";
-import QuestionPageTop from "../components/QuestionPage/QuestionPageComponents/QuestionPageTop";
-import QuestionPage from "../components/QuestionPage/QuestionPage";
+import QuestionPageTop from "../../components/QuestionPage/QuestionPageComponents/QuestionPageTop";
+import QuestionPage from "../../components/QuestionPage/QuestionPage";
 
-const Home = () => {
+const FirstQuestion = () => {
   return (
     <div style={{ postion: "relative", width: "100vw", height: "100vh" }}>
       <QuestionPageTop />
@@ -18,4 +18,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default FirstQuestion;

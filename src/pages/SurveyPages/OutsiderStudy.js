@@ -1,8 +1,8 @@
 import React from "react";
-import QuestionPageTop from "../components/QuestionPage/QuestionPageComponents/QuestionPageTop";
-import QuestionPage from "../components/QuestionPage/QuestionPage";
+import QuestionPageTop from "../../components/QuestionPage/QuestionPageComponents/QuestionPageTop";
+import QuestionPage from "../../components/QuestionPage/QuestionPage";
 
-const InsiderStudy = () => {
+const OutsiderStudy = () => {
   return (
     <div style={{ postion: "relative", width: "100vw", height: "100vh" }}>
       <QuestionPageTop />
@@ -16,4 +16,4 @@ const InsiderStudy = () => {
   );
 };
 
-export default InsiderStudy;
+export default OutsiderStudy;
